@@ -1,4 +1,15 @@
 # DLMP3 Bot (Discord.JS Local MP3)
+Original 2020 version by Alex Lee, forked and updated throughout 2021-23 by Mayuwhim (Y.M.)
+
+Added queue system, looping single/looping queue, shuffling, searching by file name or artist name, sorting by date, filtering by audio filetypes, and some custom commands.
+You can check everything I added in the help section below.
+
+The bot ran on Discord.JS v12, which is no longer supported. Uploading code for preservation purposes.
+
+This was my first experience maintaining a Discord bot. I didn't really use GitHub so I'm only making an "official" fork now.
+
+# Original Description
+
 A Discord bot that plays local mp3 audio tracks. Written in Discord.JS.
 
 [Video Tutorial](https://www.youtube.com/watch?v=7X3FAhYW31I)
@@ -41,4 +52,23 @@ pause - Pauses music.
 skip - Skips the audio track.
 leave - Leaves voice chat.
 stop - Stops bot.
+
+Additional Commands by Mayuwhim
+-------------------------------
+queue - Display queued songs
+library - [Spreadsheet of my local songs](https://docs.google.com/spreadsheets/d/e/2PACX-1vStX8QLYjz5I1m7XIbx5igXWc7bbaKmY_HvcUMV2z4PMMyuEBVUH2zvILsEbrdLEdQ4StEFSJrIw4wZ/pubhtml)
+roll [maxNum] - Random number generator
+select [name] - Search by song name
+loop - Loops single song
+loopqueue - Loops entire queue
+add [name] - Adds song to queue
+addtop [name] - Adds song to top of queue
+remove [queuePos] - Removes song from queue
+clear - Clears queue
+shuffle - Toggle shuffling (randomly picks from) song list
+sortdate - Toggle sorting song list by date added
+vc [ID] - Change voice channel
+artist - Toggle sorting by artist
+annoy - Copies any text/attachment anyone sends and resends it
+And several joke commands that just trigger specific text messages
 ```
