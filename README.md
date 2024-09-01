@@ -1,5 +1,5 @@
 # DLMP3 Bot (Discord.JS Local MP3)
-Original 2020 version by Alex Lee, forked and updated throughout 2021-23 by Mayuwhim
+Original 2020 version by Andrew Lee, forked and updated throughout 2021-23 by Mayuwhim
 
 Added queue system, looping single/looping queue, shuffling, searching by file name or artist name, sorting by date, filtering by audio filetypes, and some custom commands.
 You can check everything I added in the help section below.
